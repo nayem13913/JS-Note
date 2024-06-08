@@ -1,0 +1,40 @@
+body{
+    background-color:#55475b;
+}
+div{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:250px;
+    width: 500px;
+    height: 100px;
+    background-color: #efe787;
+    left:400px;
+    border-radius: 10px;
+}
+
+div input{
+    width:300px;
+    padding: 5px 0;
+    border:none;
+    
+    box-shadow: 1px 1px 5px;
+}
+
+div button{
+    width:100px;
+    padding: 5px 0;
+    background-color: green;
+    color:#fff;
+    font-weight: 800;
+    outline: none;
+    border:none;
+    transition: .5s;
+}
+
+div button:hover{
+    background-color: #37ea67;
+    color:#fff;
+}
+ 
